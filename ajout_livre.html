@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Ajouter un Livre - Admin</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Ajouter un Livre</h1>
+        <form method="POST" action="" enctype="multipart/form-data">
+            <input type="text" name="titre" class="input" placeholder="Titre du livre" required>
+            <input type="text" name="auteur" class="input" placeholder="Auteur" required>
+            <textarea name="description" class="input" placeholder="Description" required></textarea>
+            <input type="text" name="categorie" class="input" placeholder="Catégorie" required>
+            <input type="file" name="image" class="input" accept="image/*">
+            <button type="submit" class="btn">Ajouter</button>
+        </form>
+        <br>
+        <a href="admin_dashboard.html" class="btn">Retour</a>
+    </div>
+</body>
+</html>

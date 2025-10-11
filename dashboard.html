@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Bibliothèque</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">📚 Bibliothèque</a>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="wishlist.html">📖 Livre souhaité</a></li>
+          <li class="nav-item"><a class="nav-link" href="change_password.html">🔑 Modifier mot de passe</a></li>
+          <li class="nav-item"><a class="nav-link text-warning" href="login.html">🚪 Déconnexion</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-4">
+    <div class="row">
+
+      <aside class="col-md-3 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-header bg-primary text-white fw-bold">
+            Catégories
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><a href="#">Managements</a></li>
+            <li class="list-group-item"><a href="#">Science</a></li>
+            <li class="list-group-item"><a href="#">Informatique</a></li>
+            <li class="list-group-item"><a href="#">Histoire</a></li>
+            <li class="list-group-item"><a href="#">Autres</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="col-md-9">
+        <form class="d-flex mb-4" role="search">
+          <input class="form-control me-2" type="search" placeholder="🔍 Rechercher un livre, un auteur..." aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Rechercher</button>
+        </form>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/html.jpg" class="card-img-top" alt="Livre HTML">
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">Auteur : Jean Dupont</p>
+                <a href="livre_details.html" class="btn btn-primary btn-sm">Voir détails</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/php.jpg" class="card-img-top" alt="Livre PHP">
+              <div class="card-body">
+                <h5 class="card-title">PHP</h5>
+                <p class="card-text">Auteur : Marie Claire</p>
+                <a href="livre_details.html" class="btn btn-primary btn-sm">Voir détails</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img src="img/python.jpg" class="card-img-top" alt="Livre Python">
+              <div class="card-body">
+                <h5 class="card-title">Python 3</h5>
+                <p class="card-text">Auteur : Paul Martin</p>
+                <a href="livre_details.html" class="btn btn-primary btn-sm">Voir détails</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <footer class="bg-primary text-white text-center py-3 mt-4">
+    <p>📧 Contactez-nous : <a href="mailto:harenakais@gmail.com" class="text-warning">harenakais@gmail.com</a></p>
+    <p class="mb-0">&copy; 2025 - Bibliothèque en ligne</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

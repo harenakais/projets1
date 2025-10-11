@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Détails Livre</title>
+    <link rel="stylesheet" href="CSS/livred.css">
+</head>
+
+<body>
+
+<div class="container">
+    <img src="img/html.jpg" alt="Image du livre">
+
+    <p><strong>Auteur :</strong> Jean Dupont</p>
+    <p><strong>Catégorie :</strong> Informatique</p>
+    <p><strong>Description :</strong> Ce livre explique les bases du HTML pour débutants et avancés.</p>
+
+    <!-- Formulaire de demande d'emprunt -->
+    <h2>📘 Demander ce livre</h2>
+    <p class="message">Veuillez choisir une date de retour</p>
+
+    <form method="POST" action="">
+        <label for="date_retour">Date de retour (max 30 jours) :</label>
+        <input type="date" id="date_retour" name="date_retour" required>
+        <button type="submit">📩 Envoyer la demande</button>
+    </form>
+
+    <p><a href="dashboard.html">⬅ Retour à l'accueil</a></p>
+</div>
+
+</body>
+</html>

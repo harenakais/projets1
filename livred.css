@@ -1,0 +1,113 @@
+/* Police Google moderne */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Sary boky */
+.container img {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Titre sy texte */
+.container h2 {
+    text-align: center;
+    margin: 25px 0 15px;
+    color: #007bff;
+}
+
+.container p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+/* Label & Input */
+label {
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+input[type="date"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0,123,255,0.3);
+    outline: none;
+}
+
+/* Bouton */
+button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: translateY(-2px);
+}
+
+/* Messages */
+.message {
+    margin: 10px 0;
+    color: green;
+    font-weight: 500;
+}
+
+.error {
+    color: red;
+    font-weight: 500;
+}
+
+/* Lien retour */
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
+}

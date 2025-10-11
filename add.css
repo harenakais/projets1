@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/walpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.btn {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: orange;
+}
+.btn:hover {
+    background-color: orange;
+}
+.success {
+    color: green;
+}
+.error {
+    color: red;
+}
+.input {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+}
+.form-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(96, 96, 173);
+}
+.btn-retour {
+    
+    margin-top: 15px;
+    padding: 2px 30px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 92%;
+}
+.btn-retour:hover {
+    background-color: darkgray;
+}
+
+.livres-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    width: 75%;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid white;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+.btn-danger {
+    background-color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
